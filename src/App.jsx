@@ -3,6 +3,10 @@ import AppName from "./components/AppName";
 
 import AddToDO from "./components/AddToDo";
 
+import ToDoItem1 from "./components/ToDoItem1";
+
+import ToDoItem2 from "./components/ToDoItem2";
+
 function App() {
   return <center className = 'todo-container'><AppName />
   
@@ -10,17 +14,10 @@ function App() {
   <AddToDO />
   <AddToDO />
 
-  <div class="row">
-    <div class="col-6">Buy Milk</div>
-    <div class="col-4">15/10/2023</div>
-    <div class="col-2"><button type="button" class="btn btn-danger">Delete</button></div>
-  </div>
+  <ToDoItem1 />
+  <ToDoItem2 />
 
-  <div class="row">
-    <div class="col-6">Go to college</div>
-    <div class="col-4">4/10/2023</div>
-    <div class="col-2"><button type="button" class="btn btn-danger">Delete</button></div>
-  </div>
+  
 
 </div>
   
